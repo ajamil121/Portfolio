@@ -20,7 +20,7 @@
         <li class="hover:text-blue-800"><a href="#">Home</a></li>
         <li class="hover:text-blue-800"><a href="#">About</a></li>
         <li class="hover:text-blue-800"><a href="#">Education</a></li>
-        <li class="hover:text-blue-800"><a href="#">Skills</a></li>
+        <li class="hover:text-blue-800"><a href="#">Projects</a></li>
         <li class="hover:text-blue-800"><a href="#">Contact</a></li>
     </ul>
 </div>
@@ -36,7 +36,7 @@
 <!-- about me section -->
 
 <div class="w-[1200] mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-    <div><img class="h-40 w-40 rounded-full ml-48 mt-5" src="./assest/aboutme.JPG"></div>
+    <div><img class="h-40 w-40 rounded-full ml-48 mt-5 hover:animate-ping" src="./assest/aboutme.JPG"></div>
     <div><h1 class="text-indigo-900 text-xl mt-10">Hi, I am Aiman Jamil</h1>
         <p>Last year,I had done my graduation in IT from PUCIT with CGPA 3.08. These days, I start learning Mern stack Developement.
             Motivated and enthusiastic IT graduate seeking to leverage academic knowledge and want to contribute to a
@@ -46,11 +46,12 @@
 </div>
 
 <!-- education details -->
-<div><h1 class="text-2xl font-black underline ml-10 mt-20">Education Details</h1></div>
+<div><h1 class="text-2xl font-black underline ml-10 mt-32">Education Details</h1></div>
 <div class="max-w-6xl mx-auto w-full mt-5 grid grid-cols-9 px-2">
     <!-- Stack 1 -->
     <div class="col-span-4 w-full h-full ">
-        <div class="w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4">
+        <div class="w-full h-full bg-purple-600 rounded-md p-2 md:pl-4 ">
+            <!-- hover:bg-lime-200 -->
             <h1 class="text-white text-xl font-medium py-2">Bachelors in IT</h1>
             <p class="text-gray-100 sm:text-sm text-xs">PUCIT(2019-2023)</p>
             <p class="text-gray-100 sm:text-sm text-xs">CGPA 3.08</p>
@@ -58,8 +59,8 @@
         </div>
     </div>
     <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-        <div class="h-full w-1 bg-indigo-300"></div>
-        <div class="absolute w-6 h-6 rounded-full bg-indigo-400 z-10 text-white text-center">B</div>
+        <div class="h-full w-1 bg-purple-600"></div>
+        <div class="absolute w-6 h-6 rounded-full bg-purple-600 z-10 text-white text-center">B</div>
     </div>
     <div class="col-span-4 w-full h-full"></div>
 
@@ -67,11 +68,11 @@
     <!-- Stack 2 -->
     <div class="col-span-4 w-full h-full"></div>
     <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-        <div class="h-full w-1 bg-indigo-300"></div>
-        <div class="absolute w-6 h-6 rounded-full bg-indigo-400 z-10 text-white text-center">I</div>
+        <div class="h-full w-1 bg-purple-600"></div>
+        <div class="absolute w-6 h-6 rounded-full bg-purple-600 z-10 text-white text-center">I</div>
     </div>
     <div class="col-span-4 w-full h-full ">
-        <div class="w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4">
+        <div class="w-full h-full bg-purple-600 rounded-md p-2 md:pl-4">
             <h1 class="text-white text-xl font-medium py-2">Intermediate, Pre Engineering</h1>
             <p class="text-gray-100 sm:text-sm text-xs">LAHORE COLLEGE FOR WOMEN UNIVERSITY, LAHORE (LCWU)
                 </p>
@@ -83,7 +84,7 @@
 
     <!-- Stack 3 -->
     <div class="col-span-4 w-full h-full ">
-        <div class="w-full h-full bg-indigo-400 rounded-md p-2 md:pl-4">
+        <div class="w-full h-full bg-purple-600 rounded-md p-2 md:pl-4">
             <h1 class="text-white text-xl font-medium py-2">Matric</h1>
             <p class="text-gray-100 sm:text-sm text-xs">UNIQUE HIGH SCHOOL, LAHORE. </p>
             <p class="text-gray-100 sm:text-sm text-xs">(2015 - 2017) </p>
@@ -92,17 +93,55 @@
         </div>
     </div>
     <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-        <div class="h-full w-1 bg-indigo-300"></div>
-        <div class="absolute w-6 h-6 rounded-full bg-indigo-400 z-10 text-white text-center">M</div>
+        <div class="h-full w-1 bg-purple-600"></div>
+        <div class="absolute w-6 h-6 rounded-full bg-purple-600 z-10 text-white text-center">M</div>
     </div>
     <div class="col-span-4 w-full h-full"></div>
 </div>
 
+<!-- projects -->
+<div><h1 class="text-2xl font-black underline ml-10 mt-32">Projects</h1></div>
+<div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-6 px-20">
+<div class="mt-10 shadow-lg rounded">
+    <div class="overflow-hidden">
+    <img class="hover:scale-125 duration-1000" src="./assest/blood.JPG">
+   </div>
+    <h2 class="text-2xl font-black underline ">Blood Links</h2>
+    <li class="mt-5">Connect the Blood donor and Receiver.</li>
+        <li>User can create their own profile and donate blood.</li>
+    <li> Needy people can post on the noticeboard their desired blood needs.</li>
+    <li>Front-end using React Native, HTML, BOOTSTRAP</li>
+     <li>Backend in Node.js DBMS - Microsoft SQL Server (Use Relational Database to
+        maintain record)</li>
+</div>
+<div class="mt-10 shadow-lg rounded">
+    <div>
+    <img class="hover:scale-125 duration-1000" src="./assest/connect4.JPG"></div>
+    <h2 class="text-2xl font-black underline">Connect4</h2>
+    <li  class="mt-5" class="gap-2">Build in C++</li>
+    <p>Using </p>
+       <li>Inheritance </li><li>Aggregation </li><li>Composition</li><li>
+        Polymorphism</li>
+</div>
+<div class="mt-10 shadow-lg rounded">
+    <div>
+    <img class="hover:scale-125 duration-1000" src="./assest/tic tac toe.JPG"></div>
+    <h2 class="text-2xl font-black underline">Tic Tac Toe</h2>
+    <li  class="mt-5">Developed in C++ </li>
+    <li>Basic programming fundamental project</li>
+</div>
 
-
+<div class="mt-10 shadow-lg rounded">
+    <div>
+    <img class="hover:scale-125 duration-1000" src="./assest/address book.JPG"></div>
+    <h2 class="text-2xl font-black underline">Address Book</h2>
+    <li  class="mt-5">A website that is used to store, retrieve, and manage contact information. </li>
+       <li>Using HTML, CSS, JavaScript, Apache Web server</li>
+</div>
+</div>
 
 <!-- contact -->
-<div class="w-[1200] mx-auto mt-20 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+<div class="w-[1200] mx-auto mt-32 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
     <div><img class="h-40 w-40 rounded-full ml-48 mt-8" src="./assest/Contact.JPG"></div>
     <div class="mt-10">
         <ul>
